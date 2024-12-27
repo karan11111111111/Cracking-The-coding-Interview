@@ -4,7 +4,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class IsUnique {
+public class P1_1 {
     //Using Hashset (TC = O(n)   , SP = O(n))
 
     public static boolean IsUniqueWithDs(String str){
