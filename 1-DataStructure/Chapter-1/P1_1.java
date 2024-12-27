@@ -1,11 +1,10 @@
-// Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you 
-// cannot use additional data structures?
+// Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 import java.util.Arrays;
 import java.util.HashSet;
 
 public class P1_1 {
-    //Using Hashset (TC = O(n)   , SP = O(n))
+    //Using Hashtable (TC = O(n)   , SP = O(n))       
 
     public static boolean IsUniqueWithDs(String str){
         HashSet<Character>CharSet = new HashSet<>();
@@ -19,7 +18,7 @@ public class P1_1 {
         return true;
     }
 
-    //not using any ds  (TC = O(nlogn)   )
+    //not using any ds  (TC = O(nlogn)   )          
 
     public static boolean IsUniqueNoDs(String str){
         char[] chars = str.toCharArray();
